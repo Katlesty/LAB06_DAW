@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>SProcesoBusqueda</display-name>
+    <servlet-name>SProcesoBusqueda</servlet-name>
+    <servlet-class>controlador.SProcesoBusqueda</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SProcesoBusqueda</servlet-name>
+    <url-pattern>/SProcesoBusqueda</url-pattern>
+  </servlet-mapping>
+  <display-name>LAB06</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SProcesoRegistro</display-name>
+    <servlet-name>SProcesoRegistro</servlet-name>
+    <servlet-class>controlador.SProcesoRegistro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SProcesoRegistro</servlet-name>
+    <url-pattern>/SProcesoRegistro</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SProcesoListado</display-name>
+    <servlet-name>SProcesoListado</servlet-name>
+    <servlet-class>controlador.SProcesoListado</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SProcesoListado</servlet-name>
+    <url-pattern>/SProcesoListado</url-pattern>
+  </servlet-mapping>
+</web-app>
